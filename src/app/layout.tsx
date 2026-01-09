@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     description: "Explore the work and skills of Syam Gowtham Geddam.",
     type: "website",
   },
+other : {
+"google-site-verification":"pHWE_WHrHJbW-0uKUqmgTQibTW31hpqDLAFZcRuk8Pk",},
 };
 
 export default function RootLayout({
