@@ -264,7 +264,6 @@ export default function SinglePagePortfolio() {
 
   return (
     <div className="space-y-20 md:space-y-28 pb-20">
-      {" "}
       <section id="about" className={scrollMarginClass}>
         <div className="space-y-12">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
@@ -297,7 +296,7 @@ export default function SinglePagePortfolio() {
                 <Button
                   asChild
                   size="lg"
-                  className="rounded-full shadow-lg hover:shadow-primary/40 transition-all duration-300 transform hover:scale-105"
+                  className="rounded-full shadow-lg transition-all duration-300 transform"
                 >
                   <Link href="/#contact">
                     <Send className="mr-2 h-5 w-5" /> Get in Touch
@@ -307,7 +306,7 @@ export default function SinglePagePortfolio() {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="rounded-full shadow-lg hover:shadow-accent/40 transition-all duration-300 transform hover:scale-105"
+                  className="rounded-full shadow-lg transition-all duration-300 transform"
                 >
                   <Link href={RESUME_PATH} target="_blank" download>
                     <Download className="mr-2 h-5 w-5" /> Download Resume
